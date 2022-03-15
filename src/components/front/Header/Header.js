@@ -21,6 +21,21 @@ const Header = () => {
                 </ul>
                 <ul>
                     <li>
+                        <Link to="/viewer">Viewer</Link>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <Link to="/selfStorage">Self Storage</Link>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <Link to="/selfStore">Store</Link>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
                         <Link to="/signup">Signup</Link>
                     </li>
                 </ul>

@@ -1,8 +1,12 @@
 import React from 'react';
+import SelfStorage from "../SelfStorage/SelfStorage"
+// import Viewer from "../Viewer/Viewer";
+import SelfStore from "../SelfStore/SelfStore"
 import Products from "../Products/Products";
 import Signup from "../Signup/Signup";
 import Cart from "../Cart/Cart";
 import { Route, Switch } from "react-router-dom";
+import Viewer from '../Viewer/Viewer';
 
 const Routes = ({ 
     productItems, 
@@ -19,6 +23,15 @@ const Routes = ({
                         productItems={productItems} 
                         handleAddProduct={handleAddProduct} 
                     />
+                </Route>
+                <Route path="/Viewer" exact>
+                    <Viewer />
+                </Route>
+                <Route path="/SelfStorage" exact>
+                    <SelfStorage />
+                </Route>
+                <Route path="/selfStore" exact>
+                    <SelfStore />
                 </Route>
                 <Route path="/signup" exact>
                     <Signup />
