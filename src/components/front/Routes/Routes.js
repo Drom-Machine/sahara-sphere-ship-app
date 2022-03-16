@@ -1,7 +1,7 @@
 import React from 'react';
 import SelfStorage from "../SelfStorage/SelfStorage"
 // import Viewer from "../Viewer/Viewer";
-import SelfStore from "../SelfStore/SelfStore"
+import SelfStore from "../Store/Store"
 import Products from "../Products/Products";
 import Signup from "../Signup/Signup";
 import Cart from "../Cart/Cart";
